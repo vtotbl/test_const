@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/vtotbl/test_const.git/internal/handler"
-	"github.com/vtotbl/test_const.git/internal/usecase"
-	"github.com/vtotbl/test_const.git/pkg/rate_limiter"
+	"github.com/vtotbl/test_const/internal/handler"
+	"github.com/vtotbl/test_const/internal/usecase"
+	"github.com/vtotbl/test_const/pkg/rate_limiter"
 	"log"
 	"net/http"
 )

@@ -2,7 +2,7 @@ package validation
 
 import (
 	"errors"
-	"github.com/vtotbl/test_const.git/internal/handler/requests"
+	"github.com/vtotbl/test_const/internal/handler/requests"
 )
 
 func SenReq(req requests.SendReq) error {

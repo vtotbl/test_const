@@ -1,8 +1,7 @@
-run: build_svc run_docker
+run: build_docker run_docker
 
-build_svc:
-	go build ./cmd/main.go
+build_docker:
+	docker build -t service -f ./build/Dockerfile .
 
-#run_docker:
-
-
+run_docker:
+	docker run -p 127.0.0.1:8080:8080 --rm -it service:latest

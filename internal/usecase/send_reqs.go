@@ -2,7 +2,7 @@ package usecase
 
 import (
 	"context"
-	"github.com/vtotbl/test_const.git/pkg/sender"
+	"github.com/vtotbl/test_const/pkg/sender"
 	"net/http"
 	"net/url"
 	"time"

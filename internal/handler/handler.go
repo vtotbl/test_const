@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/vtotbl/test_const.git/internal/handler/requests"
-	"github.com/vtotbl/test_const.git/internal/handler/responses"
-	"github.com/vtotbl/test_const.git/internal/handler/validation"
+	"github.com/vtotbl/test_const/internal/handler/requests"
+	"github.com/vtotbl/test_const/internal/handler/responses"
+	"github.com/vtotbl/test_const/internal/handler/validation"
 	"io"
 	"net/http"
 )
