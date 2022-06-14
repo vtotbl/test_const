@@ -1,8 +1,8 @@
-run: build run_docker
+run: build_svc run_docker
 
-build:
+build_svc:
 	go build ./cmd/main.go
 
-run_docker:
+#run_docker:
 
 

@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/vtotbl/test_const.git/internal/handler/requests"
+	"github.com/vtotbl/test_const.git/internal/handler/responses"
+	"github.com/vtotbl/test_const.git/internal/handler/validation"
 	"io"
 	"net/http"
-	"testConstant/internal/handler/requests"
-	"testConstant/internal/handler/responses"
-	"testConstant/internal/handler/validation"
 )
 
 type senderUCase interface {
